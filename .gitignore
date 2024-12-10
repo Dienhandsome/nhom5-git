@@ -1,0 +1,33 @@
+# Các thư mục và file do hệ thống tạo
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+
+# File cấu hình tạm thời hoặc tự động tạo bởi Visual Studio
+*.vs/
+.vscode/
+
+# Thư mục và file tạo bởi NuGet
+packages/
+*.nupkg
+*.nuget.props
+*.nuget.targets
+
+# Thư mục và file xây dựng
+*.Build.*
+*.proj.user
+
+# File chứa thông tin cá nhân
+*.config
+*.settings
+
+# File backup hoặc tạm thời
+*.bak
+*.tmp
+~$*
