@@ -87,8 +87,9 @@
 			this.btnCong.Name = "btnCong";
 			this.btnCong.Size = new System.Drawing.Size(84, 61);
 			this.btnCong.TabIndex = 5;
-			this.btnCong.Text = "Cộng";
+			this.btnCong.Text = "Cộng (+)";
 			this.btnCong.UseVisualStyleBackColor = true;
+			this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
 			// 
 			// btnTru
 			// 
@@ -96,8 +97,9 @@
 			this.btnTru.Name = "btnTru";
 			this.btnTru.Size = new System.Drawing.Size(87, 61);
 			this.btnTru.TabIndex = 6;
-			this.btnTru.Text = "Trừ";
+			this.btnTru.Text = "Trừ (-)";
 			this.btnTru.UseVisualStyleBackColor = true;
+			this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
 			// 
 			// btnNhan
 			// 
@@ -105,8 +107,9 @@
 			this.btnNhan.Name = "btnNhan";
 			this.btnNhan.Size = new System.Drawing.Size(88, 56);
 			this.btnNhan.TabIndex = 7;
-			this.btnNhan.Text = "Nhân";
+			this.btnNhan.Text = "Nhân (x)";
 			this.btnNhan.UseVisualStyleBackColor = true;
+			this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
 			// 
 			// btnChia
 			// 
@@ -114,8 +117,9 @@
 			this.btnChia.Name = "btnChia";
 			this.btnChia.Size = new System.Drawing.Size(83, 53);
 			this.btnChia.TabIndex = 8;
-			this.btnChia.Text = "Chia";
+			this.btnChia.Text = "Chia (/)";
 			this.btnChia.UseVisualStyleBackColor = true;
+			this.btnChia.Click += new System.EventHandler(this.btnChia_Click);
 			// 
 			// txtResult
 			// 
