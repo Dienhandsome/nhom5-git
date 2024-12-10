@@ -73,7 +73,7 @@
             // txtNumber1
             // 
             this.txtNumber1.Location = new System.Drawing.Point(212, 108);
-            this.txtNumber1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumber1.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumber1.Name = "txtNumber1";
             this.txtNumber1.Size = new System.Drawing.Size(395, 22);
             this.txtNumber1.TabIndex = 3;
@@ -81,7 +81,7 @@
             // txtNumber2
             // 
             this.txtNumber2.Location = new System.Drawing.Point(212, 167);
-            this.txtNumber2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNumber2.Margin = new System.Windows.Forms.Padding(4);
             this.txtNumber2.Name = "txtNumber2";
             this.txtNumber2.Size = new System.Drawing.Size(395, 22);
             this.txtNumber2.TabIndex = 4;
@@ -89,7 +89,7 @@
             // btnCong
             // 
             this.btnCong.Location = new System.Drawing.Point(97, 305);
-            this.btnCong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCong.Margin = new System.Windows.Forms.Padding(4);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(112, 75);
             this.btnCong.TabIndex = 5;
@@ -100,7 +100,7 @@
             // btnTru
             // 
             this.btnTru.Location = new System.Drawing.Point(309, 305);
-            this.btnTru.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTru.Margin = new System.Windows.Forms.Padding(4);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(116, 75);
             this.btnTru.TabIndex = 6;
@@ -111,17 +111,18 @@
             // btnNhan
             // 
             this.btnNhan.Location = new System.Drawing.Point(508, 308);
-            this.btnNhan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNhan.Margin = new System.Windows.Forms.Padding(4);
             this.btnNhan.Name = "btnNhan";
             this.btnNhan.Size = new System.Drawing.Size(117, 69);
             this.btnNhan.TabIndex = 7;
             this.btnNhan.Text = "Nhân";
             this.btnNhan.UseVisualStyleBackColor = true;
+            this.btnNhan.Click += new System.EventHandler(this.btnNhan_Click);
             // 
             // btnChia
             // 
             this.btnChia.Location = new System.Drawing.Point(733, 310);
-            this.btnChia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnChia.Margin = new System.Windows.Forms.Padding(4);
             this.btnChia.Name = "btnChia";
             this.btnChia.Size = new System.Drawing.Size(111, 65);
             this.btnChia.TabIndex = 8;
@@ -131,7 +132,7 @@
             // txtResult
             // 
             this.txtResult.Location = new System.Drawing.Point(212, 420);
-            this.txtResult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtResult.Margin = new System.Windows.Forms.Padding(4);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(412, 22);
             this.txtResult.TabIndex = 9;
@@ -151,7 +152,7 @@
             this.Controls.Add(this.Result);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "calculate";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.calculate_Load);

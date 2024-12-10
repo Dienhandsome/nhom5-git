@@ -85,5 +85,15 @@ namespace calculator
                 txtResult.Text = (num1 - num2).ToString();
             }
         }
+
+        private void btnNhan_Click(object sender, EventArgs e)
+        {
+            if (checkRong() && checkPare())
+            {
+                float num1 = float.Parse(txtNumber1.Text);
+                float num2 = float.Parse(txtNumber2.Text);
+                txtResult.Text = (num1 * num2).ToString();
+            }
+        }
     }
 }
