@@ -28,7 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblso1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Result = new System.Windows.Forms.Label();
             this.txtNumber1 = new System.Windows.Forms.TextBox();
@@ -40,15 +40,15 @@
             this.txtResult = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // lblso1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(140, 175);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Số 1";
+            this.lblso1.AutoSize = true;
+            this.lblso1.Location = new System.Drawing.Point(140, 175);
+            this.lblso1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblso1.Name = "lblso1";
+            this.lblso1.Size = new System.Drawing.Size(56, 25);
+            this.lblso1.TabIndex = 0;
+            this.lblso1.Text = "Số 1";
             // 
             // label2
             // 
@@ -73,7 +73,7 @@
             // txtNumber1
             // 
             this.txtNumber1.Location = new System.Drawing.Point(318, 169);
-            this.txtNumber1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtNumber1.Margin = new System.Windows.Forms.Padding(6);
             this.txtNumber1.Name = "txtNumber1";
             this.txtNumber1.Size = new System.Drawing.Size(590, 31);
             this.txtNumber1.TabIndex = 3;
@@ -81,7 +81,7 @@
             // txtNumber2
             // 
             this.txtNumber2.Location = new System.Drawing.Point(318, 261);
-            this.txtNumber2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtNumber2.Margin = new System.Windows.Forms.Padding(6);
             this.txtNumber2.Name = "txtNumber2";
             this.txtNumber2.Size = new System.Drawing.Size(590, 31);
             this.txtNumber2.TabIndex = 4;
@@ -89,7 +89,7 @@
             // btnCong
             // 
             this.btnCong.Location = new System.Drawing.Point(146, 477);
-            this.btnCong.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnCong.Margin = new System.Windows.Forms.Padding(6);
             this.btnCong.Name = "btnCong";
             this.btnCong.Size = new System.Drawing.Size(168, 117);
             this.btnCong.TabIndex = 5;
@@ -100,7 +100,7 @@
             // btnTru
             // 
             this.btnTru.Location = new System.Drawing.Point(464, 477);
-            this.btnTru.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnTru.Margin = new System.Windows.Forms.Padding(6);
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(174, 117);
             this.btnTru.TabIndex = 6;
@@ -111,7 +111,7 @@
             // btnNhan
             // 
             this.btnNhan.Location = new System.Drawing.Point(762, 481);
-            this.btnNhan.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnNhan.Margin = new System.Windows.Forms.Padding(6);
             this.btnNhan.Name = "btnNhan";
             this.btnNhan.Size = new System.Drawing.Size(176, 108);
             this.btnNhan.TabIndex = 7;
@@ -122,7 +122,7 @@
             // btnChia
             // 
             this.btnChia.Location = new System.Drawing.Point(1100, 484);
-            this.btnChia.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnChia.Margin = new System.Windows.Forms.Padding(6);
             this.btnChia.Name = "btnChia";
             this.btnChia.Size = new System.Drawing.Size(166, 102);
             this.btnChia.TabIndex = 8;
@@ -133,7 +133,7 @@
             // txtResult
             // 
             this.txtResult.Location = new System.Drawing.Point(318, 656);
-            this.txtResult.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.txtResult.Margin = new System.Windows.Forms.Padding(6);
             this.txtResult.Name = "txtResult";
             this.txtResult.Size = new System.Drawing.Size(616, 31);
             this.txtResult.TabIndex = 9;
@@ -152,8 +152,8 @@
             this.Controls.Add(this.txtNumber1);
             this.Controls.Add(this.Result);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Controls.Add(this.lblso1);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "calculate";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.calculate_Load);
@@ -164,7 +164,7 @@
 
 		#endregion
 
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label lblso1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label Result;
 		private System.Windows.Forms.TextBox txtNumber1;
