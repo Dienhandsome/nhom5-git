@@ -48,7 +48,7 @@
             this.lblso1.Name = "lblso1";
             this.lblso1.Size = new System.Drawing.Size(56, 25);
             this.lblso1.TabIndex = 0;
-            this.lblso1.Text = "Số 1";
+            this.lblso1.Text = "So 1";
             // 
             // label2
             // 
