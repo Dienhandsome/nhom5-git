@@ -85,5 +85,10 @@ namespace calculator
                 txtResult.Text = (num1 - num2).ToString();
             }
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
